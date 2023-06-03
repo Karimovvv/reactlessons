@@ -4,12 +4,11 @@ import './Styled.css'
 
 class Fruits extends React.Component{
     render(){
-        return(<div>
-             <h1> Fruit Table</h1>
+        return(
+        <div>
+             <h1> Fruit Table </h1>
             <div className="wrapper">
 
-               
-               
                 <Card title='Orange'
                 scr='https://th.bing.com/th/id/R.75811871b4c10fc2eeec44ec7b672d7c?rik=qRF9tVRCCM1BPQ&riu=http%3a%2f%2fclipart-library.com%2fimage_gallery2%2fOrange-Transparent.png&ehk=i0POa4dCQVAAo8GXBt9TkFnWTP8I7iZU5oJOEKfMzu0%3d&risl=&pid=ImgRaw&r=0'/>
                 <Card
@@ -30,8 +29,10 @@ class Fruits extends React.Component{
                 <Card
                 title='Mango'
                 scr='https://th.bing.com/th/id/OIP.bG-LqFM4EXUzToJ2JxPXkAAAAA?pid=ImgDet&w=375&h=375&rs=1'/> 
+
             </div>
-            </div>
+
+        </div>
         )
     }
 }
